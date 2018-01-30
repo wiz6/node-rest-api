@@ -8,6 +8,7 @@ This is REST API for creating new clients, retrieving client and list of clients
 * [Mongoose 5.0.1](http://mongoosejs.com/) - data layer
 * [jQuery 3.3.1](https://jquery.com/) - frontend
 * [Bootstrap 4](https://getbootstrap.com/) - frontend web elements
+* [Handlebars 4.0.1](https://github.com/pillarjs/hbs) - template engine
 
 # Installation
 
