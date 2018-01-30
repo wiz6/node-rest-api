@@ -1,0 +1,25 @@
+<div class="form-group row">
+	<label for="email" class="col-sm-1 col-form-label">Email</label>
+	<div class="col-sm-9">
+		<input type="email" class="form-control email" name="email" placeholder="Email">
+	</div>
+</div>
+
+<div class="form-group row">
+	<label for="phone" class="col-sm-1 col-form-label">Phone</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control phone" id="phone" name="phone" placeholder="Phone"">
+	</div>
+</div>
+
+<div style="margin-bottom: 20px; margin-top: 40px;">
+	<button type="button" class="btn btn-success col-sm-2 add-button" style="margin-left: 3px;" onClick="FormBuilder.addRow();">Add new field</button>
+</div>
+
+<div id="extra-fields" style="padding-bottom: 30px;">
+	<div class="form-group row" style="padding-left: 15px; padding-right: 15px;">
+		<input type="text" class="form-control col-sm-3 extra-field-input name" placeholder="name">
+		<input type="text" class="form-control col-sm-7 extra-field-input value" style="margin-left: 1px;" placeholder="value">
+		<button type="button" class="btn btn-danger col-sm-1 delete-button" style="margin-left: 3px;" onClick="FormBuilder.deleteRow(this);">-</button>
+	</div>
+</div>

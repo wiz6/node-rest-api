@@ -1,0 +1,11 @@
+<main role="main" class="container">
+	<h1 class="mt-5">Add new client</h1>
+	<br>
+	<div class="alert alert-danger" role="alert" id="errors" style="display: none;">
+	</div>
+	<form id="add-form">
+		{{>client_fields}}
+
+		<button type="button" class="btn btn-primary col-sm-10" onClick="Actions.addNewClient('#add-form')">Add</button>
+	</form>
+</main>
